@@ -1,0 +1,49 @@
+footer {
+  padding: 20px;
+
+  p.heading {
+    font-weight: 700;
+  }
+
+  .left {
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      a {
+        img {
+          width: 48px;
+        }
+      }
+    }
+  }
+
+  .center {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .right {
+    p.phone,
+    p.mail {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (min-width: 600px) {
+  footer {
+    padding: 40px;
+
+    display: flex;
+    gap: 60px;
+  }
+}

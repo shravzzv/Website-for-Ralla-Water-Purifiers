@@ -42,6 +42,10 @@ img {
   max-width: 100%;
 }
 
+svg {
+  fill: var(--text-color);
+}
+
 @media (max-width: 600px) {
 }
 
