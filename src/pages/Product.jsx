@@ -1,7 +1,12 @@
+import Navbar from '../components/Navbar'
+
 export default function Product() {
   return (
-    <div className='product'>
-      <p>Product</p>
-    </div>
+    <>
+      <Navbar />
+      <div className='product'>
+        <p>Product</p>
+      </div>
+    </>
   )
 }

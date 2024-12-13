@@ -1,7 +1,12 @@
+import Navbar from '../components/Navbar'
+
 export default function Contact() {
   return (
-    <div className='contact'>
-      <p>Contact</p>
-    </div>
+    <>
+      <Navbar />
+      <div className='contact'>
+        <p>Contact</p>
+      </div>
+    </>
   )
 }

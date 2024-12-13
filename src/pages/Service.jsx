@@ -1,7 +1,12 @@
+import Navbar from '../components/Navbar'
+
 export default function Service() {
   return (
-    <div className='service'>
-      <p>Service</p>
-    </div>
+    <>
+      <Navbar />
+      <div className='service'>
+        <p>Service</p>
+      </div>
+    </>
   )
 }
