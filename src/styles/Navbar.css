@@ -1,5 +1,8 @@
 nav {
   padding: 20px 0;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(20px);
 
   ul {
     list-style-type: none;
