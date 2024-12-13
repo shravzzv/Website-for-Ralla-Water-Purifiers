@@ -1,0 +1,38 @@
+.home {
+  padding: 20px;
+
+  .hero {
+    .imageContainer {
+      img {
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .home {
+    padding: 0 40px;
+
+    .hero {
+      position: relative;
+
+      img {
+        max-height: 85vh;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -70%);
+        font-size: 4rem;
+        text-shadow: 2px 2px 8px black;
+        color: white;
+      }
+    }
+  }
+}
