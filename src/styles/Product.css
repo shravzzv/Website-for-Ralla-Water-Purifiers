@@ -1,9 +1,20 @@
 .product {
   padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+
+  .item {
+    img {
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
 }
 
 @media (min-width: 900px) {
   .product {
-    padding: 0 40px;
+    padding: 10px 40px;
+    grid-gap: 40px;
   }
 }
