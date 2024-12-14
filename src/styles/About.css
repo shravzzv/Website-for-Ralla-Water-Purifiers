@@ -1,0 +1,9 @@
+.about {
+  padding: 20px;
+}
+
+@media (min-width: 900px) {
+  .about {
+    padding: 0 40px;
+  }
+}
