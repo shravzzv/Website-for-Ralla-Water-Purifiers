@@ -1,0 +1,63 @@
+.home {
+  padding: 20px;
+
+  .hero {
+    .imageContainer {
+      img {
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    }
+  }
+
+  .showcase {
+    padding: 20px 0;
+    img {
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .home {
+    padding: 0 40px;
+
+    .hero {
+      position: relative;
+
+      img {
+        max-height: 85vh;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        padding: 0;
+        font-size: 4rem;
+        text-shadow: 2px 2px 8px black;
+        color: white;
+      }
+    }
+
+    .showcase {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      div {
+        flex: 1;
+
+        img {
+          height: 450px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
